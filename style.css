@@ -105,6 +105,39 @@ a{
     width: 17px;
     border-radius: 45%;
 }
+.login-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-container h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    font-size: 1.3em;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.form button {
+
+    background-color: blue;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 100px;
+    padding: 5px 0;
+    margin: 20px 70px;
+    cursor: pointer;
+
+}
 footer p{
     text-align: center;
     margin-top: 40px;
